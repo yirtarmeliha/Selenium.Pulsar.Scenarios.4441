@@ -21,7 +21,6 @@ public class SalesScenario___2 extends OpenPage {
                 }
 
 
-
         Elements.homeMode().click();
 
                 try {
@@ -63,7 +62,7 @@ public class SalesScenario___2 extends OpenPage {
         Elements.SAVEmm().click();
 
                 try {
-                    Thread.sleep(1000);
+                    Thread.sleep(2000);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }

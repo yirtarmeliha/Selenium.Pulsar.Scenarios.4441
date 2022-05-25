@@ -393,6 +393,26 @@ public class ElementsJS {
     }
 
 
+    public static void pointFruitMenuKiwiPacked() {
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException ex) {
+            ex.printStackTrace();
+        }
+        js.executeScript("$(\"span:contains('KIWI PACKED')\").parent().click()");
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException ex) {
+            ex.printStackTrace();
+        }
+    }
+
+
+
+
+
+
+
 
 //                                                    => PAGE CHANGE FRUIT MENU
 
@@ -424,13 +444,13 @@ public class ElementsJS {
         }
     }
 
-    public static void pointFruitMenuGHKLM() {
+    public static void pointFruitMenuHKLM() {
         try {
             Thread.sleep(2000);
         } catch (InterruptedException ex) {
             ex.printStackTrace();
         }
-        js.executeScript(" $(\"button:contains(\\'GHKLM\\')\").filter(function(){ return $(this).text() == 'GHKLM'; }).trigger(\"click\");");
+        js.executeScript(" $(\"button:contains(\\'HKLM\\')\").filter(function(){ return $(this).text() == 'HKLM'; }).trigger(\"click\");");
         try {
             Thread.sleep(1000);
         } catch (InterruptedException ex) {
