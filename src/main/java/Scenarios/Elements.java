@@ -181,6 +181,9 @@ public class Elements {
                     public static WebElement MixandMacthfirst(){
                         return driver.findElement(new By.ByCssSelector(".data[data-index=\"0\"]"));
                     }
+                    public static WebElement MixandMacthThird(){
+                        return driver.findElement(new By.ByCssSelector(".data[data-index=\"2\"]"));
+                    }
 
     public static WebElement suspend(){
         return driver.findElement(new By.ByCssSelector(".col-xs-6[data-translate=\"SUSPEND_LB\"]"));

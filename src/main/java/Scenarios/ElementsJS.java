@@ -164,6 +164,9 @@ public class ElementsJS {
         }
     }
 
+
+
+
     public static void pointVegMenuButternut() {
         try {
             Thread.sleep(2000);
@@ -350,6 +353,25 @@ public class ElementsJS {
         }
     }
 
+
+
+    public static void pointFruitMenuLemon() {
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException ex) {
+            ex.printStackTrace();
+        }
+        js.executeScript("$(\"span:contains('LEMON')\").filter(function(){ return $(this).text() == 'LEMON'; }).parent().click()");
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException ex) {
+            ex.printStackTrace();
+        }
+    }
+
+
+
+
     public static void pointFruitMenuPLUMPRESIDENT() {
         try {
             Thread.sleep(2000);
@@ -416,13 +438,13 @@ public class ElementsJS {
 
 //                                                    => PAGE CHANGE FRUIT MENU
 
-    public static void pointFruitMenuABC() {
+    public static void pointFruitMenuBCDEF() {
         try {
             Thread.sleep(2000);
         } catch (InterruptedException ex) {
             ex.printStackTrace();
         }
-        js.executeScript(" $(\"button:contains(\\'ABC\\')\").filter(function(){ return $(this).text() == 'ABC'; }).trigger(\"click\");");
+        js.executeScript(" $(\"button:contains(\\'BCDEF\\')\").filter(function(){ return $(this).text() == 'BCDEF'; }).trigger(\"click\");");
         try {
             Thread.sleep(1000);
         } catch (InterruptedException ex) {
