@@ -361,7 +361,7 @@ public class ElementsJS {
         } catch (InterruptedException ex) {
             ex.printStackTrace();
         }
-        js.executeScript("$(\"span:contains('LEMON')\").filter(function(){ return $(this).text() == 'LEMON'; }).parent().click()");
+        js.executeScript("$(\"span:contains('LEMON')\").filter(function(){ return $(this).text() == 'LEMON'; }).parent().click()fru");
         try {
             Thread.sleep(1000);
         } catch (InterruptedException ex) {

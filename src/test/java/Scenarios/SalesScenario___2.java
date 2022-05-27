@@ -68,7 +68,6 @@ public class SalesScenario___2 extends OpenPage {
                 }
 
 
-
         Elements.MixandMacthfirst().click();
 
                 try {
@@ -117,7 +116,6 @@ public class SalesScenario___2 extends OpenPage {
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
-
 
 
         Elements.MixandMacthfirst().click();
@@ -171,7 +169,6 @@ public class SalesScenario___2 extends OpenPage {
                 }
 
 
-
         Elements.MixandMacthfirst().click();
 
                 try {
@@ -197,7 +194,6 @@ public class SalesScenario___2 extends OpenPage {
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
-
 
 
         Elements.create().click();
@@ -224,7 +220,6 @@ public class SalesScenario___2 extends OpenPage {
 
 
 
-
         Elements.MixandMacthfirst().click();
 
                 try {
@@ -250,7 +245,6 @@ public class SalesScenario___2 extends OpenPage {
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
-
 
 
         Elements.create().click();
@@ -285,9 +279,9 @@ public class SalesScenario___2 extends OpenPage {
                 }
 
 
-
         ElementsJS.pointVegMenu();
         ElementsJS.pointVEGMenuP();
+
         ElementsJS.pointVegMenuPARSLEY();
         ElementsJS.pointVegMenuPARSLEY();
         ElementsJS.pointVegMenuPARSLEY();
@@ -305,6 +299,7 @@ public class SalesScenario___2 extends OpenPage {
 
         Elements.fiveScreen().click();
         Elements.xScreen().click();
+
         ElementsJS.pointVegMenuPARSLEY();
 
 

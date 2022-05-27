@@ -24,11 +24,9 @@ public class SalesScenario___4 extends OpenPage {
         ElementsJS.pointFruitMenu();
 
         ElementsJS.pointFruitMenuALMONDFRESH1kg();
-
         ElementsJS.pointFruitMenuAVOCADO();
 
         ElementsJS.pointFruitMenuHKLM();
-
         ElementsJS.pointFruitMenuLemon();
 
 
@@ -47,6 +45,13 @@ public class SalesScenario___4 extends OpenPage {
                 }
 
         ElementsJS.pointFruitMenuLemon();
+        Elements.cScreen().click();
+
+
+        assertEquals("6", Elements.basketItemCountTD().getAttribute("innerHTML"),"The number of items entered in the basket does not match.");
+        assertEquals("£0.76", Elements.basketDiscountTD().getAttribute("innerHTML"),"The discount price in the basket does not match.");
+        assertEquals("£17.20", Elements.basketSubtotalTD().getAttribute("innerHTML"),"The total price in the basket does not match.");
+
 
         Elements.cardScreen().click();
         assertEquals("block", Elements.StartcardtransactionYesNo().getCssValue("display"),"The yes/no screen to start card transaction did not pop up.\n");
@@ -76,15 +81,12 @@ public class SalesScenario___4 extends OpenPage {
 
 
 
-
         ElementsJS.pointVegMenu();
 
         ElementsJS.pointVegMenuBASIL();
-
         ElementsJS.pointVegMenuARTICHOKE();
 
         ElementsJS.pointVEGMenuP();
-
         ElementsJS.pointVegMenuPARSLEY();
 
         Elements.cScreen().click();
@@ -311,7 +313,6 @@ public class SalesScenario___4 extends OpenPage {
                 }
 
 
-
         Elements.cScreen().click();
 
                 try {
@@ -319,8 +320,6 @@ public class SalesScenario___4 extends OpenPage {
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
-
-                
 
 
         Elements.homeMode().click();
@@ -376,8 +375,6 @@ public class SalesScenario___4 extends OpenPage {
 
 
         Elements.homeModeBack().click();
-
-
 
 
     }

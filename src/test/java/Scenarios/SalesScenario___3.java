@@ -75,9 +75,6 @@ public class SalesScenario___3 extends OpenPage {
                 }
 
 
-
-
-
         ElementsJS.pointFruitMenu();
         ElementsJS.pointFruitMenuHKLM();
         ElementsJS.pointFruitMenuKiwiPacked();
@@ -273,7 +270,6 @@ public class SalesScenario___3 extends OpenPage {
 
 
 
-
         Elements.cigaretteOrTobacco().click();
         assertEquals("block", Elements.ConfirmAgePopUp().getCssValue("display"),"The yes/no screen to confirm age did not pop up.");
 
@@ -330,8 +326,7 @@ public class SalesScenario___3 extends OpenPage {
                 }
 
 
-                Elements.cScreen().click();
-
+         Elements.cScreen().click();
 
 
         Elements.homeMode().click();
@@ -384,9 +379,6 @@ public class SalesScenario___3 extends OpenPage {
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
-
-
-
 
 
         Elements.create().click();
@@ -457,8 +449,6 @@ public class SalesScenario___3 extends OpenPage {
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
-
-
 
 
         Elements.enterCode().click();
