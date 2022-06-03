@@ -210,6 +210,25 @@ public class ElementsJS {
     }
 
 
+    public static void pointVegMenuPOTATOESRED() {
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException ex) {
+            ex.printStackTrace();
+        }
+        js.executeScript("$(\"span:contains('POTATOES RED')\").parent().click()");
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException ex) {
+            ex.printStackTrace();
+        }
+    }
+
+
+
+
+
+
 
     //                                                    => .FRUIT MENU
 
@@ -436,7 +455,7 @@ public class ElementsJS {
 
 
 
-//                                                    => PAGE CHANGE FRUIT MENU
+//                                                  => PAGE CHANGE FRUIT MENU
 
     public static void pointFruitMenuBCDEF() {
         try {
